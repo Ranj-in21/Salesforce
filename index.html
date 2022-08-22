@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SFSuite">
+              <span class="suite-name border-passed">SFSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SFSuite">
+                    <span>F:\Testleaf\LearnAutomation\testngSFParallel.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SFSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SFSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SFSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SFSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SFSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SFSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SFSuite" class="hide-methods passed suite-SFSuite"> (hide)</a> <!-- hide-methods passed suite-SFSuite -->
+                      <a href="#" panel-name="suite-SFSuite" class="show-methods passed suite-SFSuite"> (show)</a> <!-- show-methods passed suite-SFSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SFSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFSuite" title="salesForceParameters.ContentParameters" hash-for-method="ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...)">ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFSuite" title="salesForceParameters.ContentParameters" hash-for-method="ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...)">ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFSuite" title="salesForceParameters.IndivParameters" hash-for-method="individualSalesforce(Individuals, Ranjini, Customers, Ranjini)">individualSalesforce(Individuals, Ranjini, Customers, Ranjini)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SFSuite" title="salesForceParameters.IndivParameters" hash-for-method="individualSalesforce(Individuals, Ranjini, Customers, Ranjini)">individualSalesforce(Individuals, Ranjini, Customers, Ranjini)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SFSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SFSuite" class="panel SFSuite">
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">salesForceParameters.ContentParameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...)">
+                  </a> <!-- ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...) -->
+                  <span class="method-name">ContentSalesforce</span>
+                  <span class="parameters">(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Chatter feed?)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...)">
+                  </a> <!-- ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...) -->
+                  <span class="method-name">ContentSalesforce</span>
+                  <span class="parameters">(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Chatter feed?)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">salesForceParameters.IndivParameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="individualSalesforce(Individuals, Ranjini, Customers, Ranjini)">
+                  </a> <!-- individualSalesforce(Individuals, Ranjini, Customers, Ranjini) -->
+                  <span class="method-name">individualSalesforce</span>
+                  <span class="parameters">(Individuals, Ranjini, Customers, Ranjini)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="individualSalesforce(Individuals, Ranjini, Customers, Ranjini)">
+                  </a> <!-- individualSalesforce(Individuals, Ranjini, Customers, Ranjini) -->
+                  <span class="method-name">individualSalesforce</span>
+                  <span class="parameters">(Individuals, Ranjini, Customers, Ranjini)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+        </div> <!-- panel SFSuite -->
+        <div panel-name="test-xml-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Testleaf\LearnAutomation\testngSFParallel.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot; name=&quot;SFSuite&quot; parallel=&quot;classes&quot;&gt;
+  &lt;parameter name=&quot;UserName&quot; value=&quot;infinity@testing.rr&quot;/&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://login.salesforce.com/&quot;/&gt;
+  &lt;parameter name=&quot;PassWord&quot; value=&quot;Mother@7&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;5&quot; name=&quot;TestChrome&quot; parallel=&quot;classes&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;salesForceParameters.IndivParameters&quot;/&gt;
+      &lt;class name=&quot;salesForceParameters.ContentParameters&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;5&quot; name=&quot;TestEdge&quot; parallel=&quot;classes&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;salesForceParameters.IndivParameters&quot;/&gt;
+      &lt;class name=&quot;salesForceParameters.ContentParameters&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestEdge --&gt;
+&lt;/suite&gt; &lt;!-- SFSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestChrome (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TestEdge (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SFSuite');
+function tableData_SFSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'individualSalesforce')
+data.setCell(0, 2, 'salesForceParameters.IndivParameters')
+data.setCell(0, 3, 35367);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'individualSalesforce')
+data.setCell(1, 2, 'salesForceParameters.IndivParameters')
+data.setCell(1, 3, 31510);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ContentSalesforce')
+data.setCell(2, 2, 'salesForceParameters.ContentParameters')
+data.setCell(2, 3, 25274);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ContentSalesforce')
+data.setCell(3, 2, 'salesForceParameters.ContentParameters')
+data.setCell(3, 3, 13673);
+window.suiteTableData['SFSuite']= { tableData: data, tableDiv: 'times-div-SFSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SFSuite">
+              </div> <!-- times-div-SFSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.ContentParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.IndivParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome, https://login.salesforce.com/, infinity@testing.rr, Mother@7)</span>
+                <span class="method-start">857 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.ContentParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome, https://login.salesforce.com/, infinity@testing.rr, Mother@7)</span>
+                <span class="method-start">857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...)</span>
+                <span class="method-start">37121 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.IndivParameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">individualSalesforce(Individuals, Ranjini, Customers, Ranjini)</span>
+                <span class="method-start">38744 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.ContentParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">62402 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.IndivParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">74112 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.ContentParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76666 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.IndivParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76667 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.ContentParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Edge, https://login.salesforce.com/, infinity@testing.rr, Mother@7)</span>
+                <span class="method-start">76794 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.IndivParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Edge, https://login.salesforce.com/, infinity@testing.rr, Mother@7)</span>
+                <span class="method-start">76808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">individualSalesforce(Individuals, Ranjini, Customers, Ranjini)</span>
+                <span class="method-start">111218 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.ContentParameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ContentSalesforce(Content, Can I filter the Chatter feed to show only questions?, What are the filters available in Ch...)</span>
+                <span class="method-start">112730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">126407 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">salesForceParameters.IndivParameters</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">142730 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

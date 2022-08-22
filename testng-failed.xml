@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [SFSuite]" parallel="classes">
+  <parameter name="UserName" value="infinity@testing.rr"/>
+  <parameter name="URL" value="https://login.salesforce.com/"/>
+  <parameter name="PassWord" value="Mother@7"/>
+  <test thread-count="5" verbose="5" name="TestChrome(failed)" parallel="classes">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="salesForceParameters.IndivParameters">
+        <methods>
+          <include name="postCondition"/>
+          <include name="individualSalesforce" invocation-numbers="0"/>
+          <include name="preCondition"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- salesForceParameters.IndivParameters -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test thread-count="5" verbose="5" name="TestEdge(failed)" parallel="classes">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="salesForceParameters.ContentParameters">
+        <methods>
+          <include name="postCondition"/>
+          <include name="ContentSalesforce"/>
+          <include name="setup"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- salesForceParameters.ContentParameters -->
+      <class name="salesForceParameters.IndivParameters">
+        <methods>
+          <include name="postCondition"/>
+          <include name="individualSalesforce"/>
+          <include name="preCondition"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- salesForceParameters.IndivParameters -->
+    </classes>
+  </test> <!-- TestEdge(failed) -->
+</suite> <!-- Failed suite [SFSuite] -->

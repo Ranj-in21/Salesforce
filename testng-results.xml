@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SFSuite" duration-ms="143491" started-at="2022-08-22T21:32:03 IST" finished-at="2022-08-22T21:34:26 IST">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="76606" started-at="2022-08-22T21:32:03 IST" finished-at="2022-08-22T21:33:19 IST">
+      <class name="salesForceParameters.ContentParameters">
+        <test-method status="PASS" signature="setup()[pri:0, instance:salesForceParameters.ContentParameters@382db087]" name="setup" is-config="true" duration-ms="9" started-at="2022-08-22T21:32:03 IST" finished-at="2022-08-22T21:32:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesForceParameters.ContentParameters@382db087]" name="preCondition" is-config="true" duration-ms="36263" started-at="2022-08-22T21:32:04 IST" finished-at="2022-08-22T21:32:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[infinity@testing.rr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mother@7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="ContentSalesforce(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesForceParameters.ContentParameters@382db087]" name="ContentSalesforce" duration-ms="25274" started-at="2022-08-22T21:32:40 IST" data-provider="TestData" finished-at="2022-08-22T21:33:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Can I filter the Chatter feed to show only questions?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[What are the filters available in Chatter feed?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentSalesforce -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:salesForceParameters.ContentParameters@382db087]" name="postCondition" is-config="true" duration-ms="2265" started-at="2022-08-22T21:33:05 IST" finished-at="2022-08-22T21:33:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- salesForceParameters.ContentParameters -->
+      <class name="salesForceParameters.IndivParameters">
+        <test-method status="PASS" signature="setup()[pri:0, instance:salesForceParameters.IndivParameters@1068e947]" name="setup" is-config="true" duration-ms="0" started-at="2022-08-22T21:32:03 IST" finished-at="2022-08-22T21:32:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesForceParameters.IndivParameters@1068e947]" name="preCondition" is-config="true" duration-ms="37886" started-at="2022-08-22T21:32:04 IST" finished-at="2022-08-22T21:32:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[infinity@testing.rr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mother@7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="individualSalesforce(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesForceParameters.IndivParameters@1068e947]" name="individualSalesforce" duration-ms="35367" started-at="2022-08-22T21:32:41 IST" data-provider="TestData" finished-at="2022-08-22T21:33:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Individuals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ranjini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Customers]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ranjini]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- individualSalesforce -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:salesForceParameters.IndivParameters@1068e947]" name="postCondition" is-config="true" duration-ms="2485" started-at="2022-08-22T21:33:17 IST" finished-at="2022-08-22T21:33:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- salesForceParameters.IndivParameters -->
+    </test> <!-- TestChrome -->
+    <test name="TestEdge" duration-ms="66820" started-at="2022-08-22T21:33:19 IST" finished-at="2022-08-22T21:34:26 IST">
+      <class name="salesForceParameters.ContentParameters">
+        <test-method status="PASS" signature="setup()[pri:0, instance:salesForceParameters.ContentParameters@7181ae3f]" name="setup" is-config="true" duration-ms="1" started-at="2022-08-22T21:33:19 IST" finished-at="2022-08-22T21:33:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesForceParameters.ContentParameters@7181ae3f]" name="preCondition" is-config="true" duration-ms="35936" started-at="2022-08-22T21:33:19 IST" finished-at="2022-08-22T21:33:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[infinity@testing.rr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mother@7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="ContentSalesforce(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesForceParameters.ContentParameters@7181ae3f]" name="ContentSalesforce" duration-ms="13673" started-at="2022-08-22T21:33:55 IST" data-provider="TestData" finished-at="2022-08-22T21:34:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Can I filter the Chatter feed to show only questions?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[What are the filters available in Chatter feed?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentSalesforce -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:salesForceParameters.ContentParameters@7181ae3f]" name="postCondition" is-config="true" duration-ms="2514" started-at="2022-08-22T21:34:09 IST" finished-at="2022-08-22T21:34:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- salesForceParameters.ContentParameters -->
+      <class name="salesForceParameters.IndivParameters">
+        <test-method status="PASS" signature="setup()[pri:0, instance:salesForceParameters.IndivParameters@77a57272]" name="setup" is-config="true" duration-ms="0" started-at="2022-08-22T21:33:19 IST" finished-at="2022-08-22T21:33:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesForceParameters.IndivParameters@77a57272]" name="preCondition" is-config="true" duration-ms="34410" started-at="2022-08-22T21:33:20 IST" finished-at="2022-08-22T21:33:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[infinity@testing.rr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mother@7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="individualSalesforce(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesForceParameters.IndivParameters@77a57272]" name="individualSalesforce" duration-ms="31510" started-at="2022-08-22T21:33:54 IST" data-provider="TestData" finished-at="2022-08-22T21:34:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Individuals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ranjini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Customers]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ranjini]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- individualSalesforce -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:salesForceParameters.IndivParameters@77a57272]" name="postCondition" is-config="true" duration-ms="753" started-at="2022-08-22T21:34:25 IST" finished-at="2022-08-22T21:34:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- salesForceParameters.IndivParameters -->
+    </test> <!-- TestEdge -->
+  </suite> <!-- SFSuite -->
+</testng-results>
